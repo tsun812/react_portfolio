@@ -65,3 +65,7 @@ export const NavLink = styled(LinkS)`
     border-bottom: 2px solid #fff;
   }
 `;
+
+export const DropdownIcon = styled.div`
+  color: #fff;
+`
