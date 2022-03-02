@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, NavbarContainer, NavLogo } from './Navbaritem'
+import { Nav, NavbarContainer, NavLogo, NavMenu, NavMenuItem, NavLink} from './Navbaritem'
 const Navbar = () => {
   return (
     <>
@@ -8,6 +8,11 @@ const Navbar = () => {
           <NavLogo to="/">
             hello
           </NavLogo>
+          <NavMenu>
+            <NavMenuItem>
+            <NavLink to="about">About</NavLink>
+            </NavMenuItem>
+          </NavMenu>
         </NavbarContainer>
       </Nav>
     </>
