@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavbarContainer>
+        <NavbarContainer> 
           <NavLogo to="/">
             hello
           </NavLogo>
@@ -12,6 +12,16 @@ const Navbar = () => {
             <NavMenuItem>
             <NavLink to="about">About</NavLink>
             </NavMenuItem>
+            <NavMenuItem>
+            <NavLink to="about">Skills</NavLink>
+            </NavMenuItem>
+            <NavMenuItem>
+            <NavLink to="about">Projects</NavLink>
+            </NavMenuItem>
+            <NavMenuItem>
+            <NavLink to="about">Education</NavLink>
+            </NavMenuItem>
+            
           </NavMenu>
         </NavbarContainer>
       </Nav>

@@ -50,7 +50,18 @@ export const NavMenu = styled.ul`
 `;
 
 export const NavMenuItem = styled.li`
+  color: #fff;
   height: 120px;
   `;
 
-export const NavLink = styled(LinkS)``;
+export const NavLink = styled(LinkS)`
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+  cursor: pointer;
+
+  &.active{
+    border-bottom: 2px solid #fff;
+  }
+`;
